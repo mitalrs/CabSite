@@ -1,0 +1,16 @@
+.nav-bar{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    width: 200px;
+    height: 65px;
+}
+.nav-bar-right-side-item{
+    display: flex;
+    justify-content: space-around;
+}
+

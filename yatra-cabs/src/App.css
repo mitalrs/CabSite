@@ -1,0 +1,15 @@
+.app{
+  width: 100wh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.wrapper-0n-app-component{
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+    max-width: 1440px;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 100%;
+  }

@@ -1,0 +1,42 @@
+.wrapper-on-bg-img{
+   position: relative;
+}
+.bg-image-on-landing{
+    background-image: url(../../assets/landingpagebg.jpeg);
+    width: 100%;
+    height: 500px;
+    /* opacity: 0.8; */
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    position: relative;
+}
+.tag-lines{
+    width: 50%;
+    font-size: 47px;
+    color: white;
+    line-height: 1.2;
+    height: 100%;
+    position: relative;
+}
+.tag-line-wrapper{
+    height: 172px;
+    width: 539px;
+    position: absolute;
+    top: 20%;
+    left: 2%;
+}
+.tag-line-bold{
+    font-weight: 600;
+    color: #45D203;
+}
+p{
+    padding: 0;
+    margin: 0;
+}
+.tag-line-first-item{
+    display: flex;
+}
+.tag-line-bold-1{
+    padding-left: 10px;
+}
