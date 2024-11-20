@@ -4,6 +4,43 @@
     position: absolute;
     right: 5%;
     top: 7%;
+    background-color: #F7F7F7;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+.export-cab .btn-cantainer{
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+}
+.export-cab .btn-cantainer .btn{
+    height: 49px;
+    width: 172px;
+    border-radius: 8px;
+    border-color: #216900;
+    font-weight: 500px;
+    font-size: 26px;
+    color: #A0A0A0;
+    background-color: white;
+    border-width: 1.6px;
+}
+.export-cab .btn-cantainer .activeb-btn{
+    height: 49px;
+    width: 172px;
+    border-radius: 8px;
+    border-color: #216900;
+    background-color: #216900;
+    color: white;
+    font-weight: 500px;
+    font-size: 26px;
+}
+.component-container{
+    width: 90%; 
+    height: 80%;
 }
 
 
