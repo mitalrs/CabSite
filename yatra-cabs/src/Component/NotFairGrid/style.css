@@ -5,14 +5,11 @@
     justify-content: space-between;
     align-items: center ;
 }
-/* InfoSection.css */
 .info-section {
     display: flex;
     justify-content: space-between;
     align-items: stretch;
     gap: 1rem;
-    padding: 20px;
-    border: 1px solid #ccc;
     border-radius: 10px;
   }
   
@@ -20,31 +17,32 @@
     flex: 1;
     text-align: center;
     padding: 20px;
-    border: 1px solid #00a550;
-    border-radius: 10px;
     background-color: #f9f9f9;
   }
   
-  .icon {
+  .card-icon {
     font-size: 40px;
-    color: #00a550;
+    color: #216900;
     margin-bottom: 10px;
+    width: 116px;
+    height: 73px;
   }
   
   .title {
-    font-size: 18px;
-    font-weight: bold;
-    color: #00a550;
+    font-size: 27px;
+    font-weight: 600;
+    color: #216900;
     margin-bottom: 10px;
   }
   
   .description {
-    font-size: 14px;
+    font-size: 17px;
     line-height: 1.5;
     color: #555;
+    font-weight: 400;
   }
   
   .info-card + .info-card {
-    border-left: 1px solid #ccc;
+    border-left: 2.5px solid #747373;
   }
   
