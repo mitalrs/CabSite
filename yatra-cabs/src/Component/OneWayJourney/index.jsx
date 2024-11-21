@@ -1,4 +1,5 @@
 import './style.css'
+import Trip from '../../assets/oneWayJourny.gif'
 
 function Index() {
 
@@ -6,10 +7,10 @@ function Index() {
     <>
       <div className="one-way-journey">
       <div className="content">
-        <h2>
+        <h2 className='title'>
           WHY CHOOSE AC BUS OR AC TRAIN FOR YOUR <span className="highlight">ONE-WAY JOURNEY?</span>
         </h2>
-        <p>
+        <p className='description'>
           Our Oneway Cab Service Is Cheaper Than AC Bus And 2 Tier AC Train Ticket Fares, It Reduces
           Your Travel Time And You Travel At Your Own Private Space Also To Enjoy Your Journey. Our
           One Way Taxi Will Come At Your Doorstep And Take You To Your Desired Destination. So Book
@@ -17,9 +18,9 @@ function Index() {
         </p>
         <a href="#read-more" className="read-more">Read More....</a>
       </div>
-      <div className="image-container">
+      <div>
         <img
-          src="https://via.placeholder.com/600x400" /* Replace with actual image URL */
+          src={Trip}
           alt="Taxi booking illustration"
           className="illustration"
         />

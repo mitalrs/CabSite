@@ -1,10 +1,8 @@
 .one-way-journey {
     display: flex;
     align-items: center;
-    justify-content: space-between;
     gap: 20px;
     padding: 40px;
-    background-color: #f9f9f9;
     height: 400px;
   }
   
@@ -18,9 +16,11 @@
     margin-bottom: 20px;
     font-weight: bold;
   }
-  
-  .highlight {
-    color: #29a329; /* Green color for emphasis */
+  .content .title{
+    color: #585858;
+  }
+  .content .title .highlight {
+    color: #29a329;
   }
   
   .content p {
@@ -38,10 +38,6 @@
   
   .read-more:hover {
     text-decoration: underline;
-  }
-  
-  .image-container {
-    max-width: 40%;
   }
   
   .illustration {

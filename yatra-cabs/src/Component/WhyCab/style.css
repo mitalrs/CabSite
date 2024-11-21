@@ -1,32 +1,34 @@
 .wrapper-0n-whycab{
     height: 620px;
 }
-/* OneWayJourney.css */
-.one-way-journey {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 20px;
-    padding: 40px;
-    background-color: #f9f9f9;
-  }
   
-  .content {
+  .one-way-journey .content {
     max-width: 50%;
   }
   
-  .content h2 {
+  .one-way-journey .content h2 {
     font-size: 24px;
     color: #333;
     margin-bottom: 20px;
     font-weight: bold;
   }
   
-  .highlight {
-    color: #29a329; /* Green color for emphasis */
+  .one-way-journey .content .title{
+    font-size: 36px;
+    font-weight: 800;
+    color: #585858;
+  }
+  .one-way-journey .content .title .highlight {
+    color: #216900; 
+  }
+
+  .one-way-journey .content  .description{
+    color: #585858;
+    font-size: 20px;
+    font-weight: 400;
   }
   
-  .content p {
+  .one-way-journey .content p {
     font-size: 16px;
     line-height: 1.5;
     color: #555;
