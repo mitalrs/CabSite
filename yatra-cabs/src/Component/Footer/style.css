@@ -1,7 +1,6 @@
 .wrapper-0n-footer{
     height: 165px;
 }
-/* General Footer Styles */
 .footer {
     background-color: #000000;
     color: #ffffff;
@@ -17,9 +16,9 @@
     gap: 20px;
   }
   
-  .footer-logo {
-    width: 150px;
-    height: auto;
+  .footer-logo img {
+    width: 200px;
+    height: 65px;
   }
   
   .footer-menu {

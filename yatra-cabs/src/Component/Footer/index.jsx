@@ -1,4 +1,5 @@
 import './style.css'
+import Logo from '../../assets/logo.png'
 
 function Index() {
 
@@ -9,7 +10,7 @@ function Index() {
       <div className="footer-content">
         {/* Logo Section */}
         <div className="footer-logo">
-          <img src="logo.png" alt="Yatri Cabs" />
+          <img src={Logo} alt="Yatri Cabs" />
         </div>
 
         {/* Navigation Links */}
