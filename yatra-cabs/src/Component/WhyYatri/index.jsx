@@ -1,24 +1,33 @@
 import './style.css'
+import car from '../../assets/cab.png'
+import { FiFlag } from "react-icons/fi";
+import { FaUsers } from "react-icons/fa6";
+import { BsPhone } from "react-icons/bs";
+import { LuCircleDollarSign } from "react-icons/lu";
+
+
+
+
 
 function Index() {
 
   return (
     <>
        <div className="why-yatri">
-      <h2 className="section-title">
-        WHY <span className="highlight">YATRI</span> ?
-      </h2>
       <div className="content-container">
         <div className="image-container">
           <img
-            src="https://via.placeholder.com/500x300" // Replace with actual car image URL
+            src={car} 
             alt="Car"
             className="car-image"
           />
         </div>
         <div className="features-container">
+        <h2 className="section-title">
+        WHY <span className="highlight">YATRI</span> ?
+      </h2>
           <div className="feature">
-            <span className="feature-icon">⏱️</span>
+            <FiFlag className="feature-icon"/>
             <div>
               <h3 className="feature-title">FAST RESPONSE TIME</h3>
               <p className="feature-description">
@@ -29,7 +38,7 @@ function Index() {
             </div>
           </div>
           <div className="feature">
-            <span className="feature-icon">🚗</span>
+            <FaUsers className="feature-icon"/>
             <div>
               <h3 className="feature-title">VAST FLEET</h3>
               <p className="feature-description">
@@ -40,7 +49,7 @@ function Index() {
             </div>
           </div>
           <div className="feature">
-            <span className="feature-icon">📱</span>
+            <BsPhone className="feature-icon"/>
             <div>
               <h3 className="feature-title">EASY TO ORDER</h3>
               <p className="feature-description">
@@ -50,7 +59,7 @@ function Index() {
             </div>
           </div>
           <div className="feature">
-            <span className="feature-icon">💰</span>
+            <LuCircleDollarSign className="feature-icon"/>
             <div>
               <h3 className="feature-title">GREAT TARIFFS</h3>
               <p className="feature-description">
