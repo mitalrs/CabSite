@@ -6,6 +6,8 @@ import RoundTrip from './RoundTrip'
 function Index() {
   const [isOneWay, setIsOneWay] = useState(true);
 
+  console.log(isOneWay)
+
 
   return (
     <>
