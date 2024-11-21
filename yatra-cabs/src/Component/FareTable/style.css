@@ -1,3 +1,37 @@
-.wrapper-0n-faretable{
+.fare-table {
+    padding: 20px;
+    text-align: center;
+    background-color: #f9f9f9;
     height: 256px;
-}
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+  }
+  
+  thead th {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    text-transform: uppercase;
+  }
+  
+  tbody td {
+    background-color: #dff5d5;
+    color: #333;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  thead th, tbody td {
+    border: 1px solid #ddd;
+  }
+  
+  tbody tr:nth-child(even) td {
+    background-color: #e7f8e7;
+  }
+  
