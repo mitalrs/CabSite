@@ -3,7 +3,7 @@
 }
 .hero-section {
     text-align: center;
-    padding: 30px;
+    padding: 10px;
     color: #333;
   }
   
@@ -13,6 +13,7 @@
     color: #585858;
     margin-bottom: 10px;
     text-transform: uppercase;
+    margin: 0 0 20px 0;
   }
   
   .hero-description {
