@@ -1,27 +1,25 @@
 .wrapper-on-localtaxiservices{
     height: 166px;
 }
-/* HeroSection.css */
 .hero-section {
     text-align: center;
     padding: 30px;
-    background-color: #fff;
     color: #333;
   }
   
   .hero-title {
-    font-size: 24px;
-    font-weight: bold;
-    color: #444;
+    font-size: 36px;
+    font-weight: 800;
+    color: #585858;
     margin-bottom: 10px;
     text-transform: uppercase;
   }
   
   .hero-description {
-    font-size: 16px;
+    font-size: 20px;
     line-height: 1.6;
     color: #555;
-    max-width: 800px;
     margin: 0 auto;
+    font-weight: 400;
   }
   
