@@ -1,57 +1,51 @@
 .wrapper-0n-whycab{
     height: 620px;
 }
-  
-  .one-way-journey .content {
-    max-width: 50%;
+  .why-choose-one-way-cab{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .why-choose-one-way-cab .title{
+    font-size: 64px;
+    color: #216900;
+    font-weight: 600;
+    margin: 0 5px 0 5px;
   }
   
-  .one-way-journey .content h2 {
-    font-size: 24px;
-    color: #333;
-    margin-bottom: 20px;
-    font-weight: bold;
+  .why-choose-one-way-cab .features-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
   }
   
-  .one-way-journey .content .title{
-    font-size: 36px;
-    font-weight: 800;
-    color: #585858;
+  .features-container .features-box{
+    background-color: #F2EFEF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
   }
-  .one-way-journey .content .title .highlight {
-    color: #216900; 
-  }
-
-  .one-way-journey .content  .description{
-    color: #585858;
+  
+  .features-container .features-box ul li{
     font-size: 20px;
     font-weight: 400;
+    padding-right: 5px;
+    line-height: 2;
   }
   
-  .one-way-journey .content p {
-    font-size: 16px;
-    line-height: 1.5;
-    color: #555;
-    margin-bottom: 20px;
+  .features-container .image-container .image {
+    max-width: 400px;
+    border-radius: 16px;
   }
-  
-  .read-more {
-    font-size: 16px;
-    color: #007BFF; /* Blue color for link */
-    text-decoration: none;
+ 
+  .subtext-container .subtext{
+    font-size: 36px;
+    font-weight: 400;
+    color: #71766F;
+    text-align: center;
   }
-  
-  .read-more:hover {
-    text-decoration: underline;
+  .subtext-container .subtext .highlight{
+    color: #216900;
   }
-  
-  .image-container {
-    max-width: 40%;
-  }
-  
-  .illustration {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-  }
-  
