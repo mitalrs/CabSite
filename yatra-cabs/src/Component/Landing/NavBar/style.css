@@ -1,24 +1,35 @@
 .nav-bar{
-    height: 100px;
+    height: fit-content;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 10px 0 10px;
+    padding: 1.2vw;
+
 }
 .nav-bar .contact{
-    background-color: #216900;
-    padding: 0 10px 0 10px;
-    border-radius: 100px 100px 100px 1px;
+    background-image: url("../../../assets/contactNo.svg");
+    width: 22vw;
+    height: 5vw; 
+    background-size: contain;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.nav-bar .contact a{
+    font-size: clamp(8px,1.25vw,100px);
     color: white;
-    font-size: 28px;
+    text-decoration: none;
+    font-weight: 800;
+    position: absolute;
+    right: 5%;
+    top: 25%;
 }
 .logo{
-    width: 200px;
-    height: 65px;
+    height: 3.5vw;
 }
 .right-menu-items{
     height: 100%;
-    width: 20%;
+    width: 17%;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -30,7 +41,16 @@
     flex-direction: column;
 }
 .item-container .icon{
-    width: 35px;
-    height: 35px;
+    width: clamp(18px, 3vw, 40px);
+    height: auto;
     color: #A0A0A0;
+}
+.item-container p{
+    font-size: clamp(12px, 0.78vw, 22px);
+}
+
+@media (max-width: 1044px) {
+    .right-menu-items .download-icon{
+        display: none;
+    }
 }
