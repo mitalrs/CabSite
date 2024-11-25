@@ -4,24 +4,27 @@
 .bg-image-on-landing{
     background-image: url(../../assets/landingpagebg.jpeg);
     width: 100%;
-    height: 500px;
-    /* opacity: 0.8; */
+    height: 571px;
     background-size: 100% 100%;
     background-repeat: no-repeat;
     display: flex;
     position: relative;
 }
+.dark-image-background{
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, .836), transparent);
+    width: 100%;
+    height: 100%;
+}
 .tag-lines{
-    width: 50%;
-    font-size: 47px;
+    width: 65%;
+    font-size: clamp(18px, 1.5vw, 40px);
     color: white;
-    line-height: 1.2;
+    line-height: 1.3;
     height: 100%;
     position: relative;
 }
 .tag-line-wrapper{
-    height: 172px;
-    width: 539px;
+    width: 65%;
     position: absolute;
     top: 20%;
     left: 2%;
@@ -35,7 +38,7 @@ p{
     margin: 0;
 }
 .tag-line-first-item{
-    display: flex;
+   font-weight: 300;
 }
 .tag-line-bold-1{
     padding-left: 10px;
