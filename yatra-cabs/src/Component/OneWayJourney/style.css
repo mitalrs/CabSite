@@ -3,7 +3,7 @@
     align-items: center;
     gap: 20px;
     padding: 40px;
-    height: 400px;
+    height: fit-content;
   }
   
   .one-way-journey .content {
@@ -17,7 +17,7 @@
     font-weight: bold;
   }
   .one-way-journey .content .title{
-    font-size: 36px;
+    font-size: 2.5vw;
     font-weight: 800;
     color: #585858;
   }
@@ -27,7 +27,7 @@
 
   .one-way-journey .content  .description{
     color: #585858;
-    font-size: 20px;
+    font-size: 1.5vw;
     font-weight: 400;
   }
   

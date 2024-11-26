@@ -4,7 +4,7 @@ import NotFairGrid from './Component/NotFairGrid'
 import LocalTaxiServices from './Component/LocalTaxiServices'
 import WhyYatri from './Component/WhyYatri'
 import FareTable from './Component/FareTable'
-// import OneWayJourney from './Component/OneWayJourney'
+import OneWayJourney from './Component/OneWayJourney'
 // import WhyCab from './Component/WhyCab'
 // import RoadTrip from './Component/RoadTrip'
 // import CarRental from './Component/CarRental'
@@ -20,8 +20,8 @@ function App() {
       <LocalTaxiServices/>
       <WhyYatri/>
       <FareTable/>
-      {/* <OneWayJourney/>
-      <WhyCab/>
+      <OneWayJourney/>
+      {/* <WhyCab/>
       <RoadTrip/>
       <CarRental/>
       <Footer/> */}
