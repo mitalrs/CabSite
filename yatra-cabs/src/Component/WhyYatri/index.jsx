@@ -15,6 +15,9 @@ function Index() {
     <>
        <div className="why-yatri">
       <div className="content-container">
+      <h2 className="section-title mobile-view">
+        WHY <span className="highlight">YATRI</span> ?
+      </h2>
         <div className="image-container">
           <img
             src={car} 
@@ -23,8 +26,8 @@ function Index() {
           />
         </div>
         <div className="features-container">
-        <h2 className="section-title">
-        WHY <span className="highlight">YATRI</span> ?
+        <h2 className="section-title desktop-view">
+        WHY <span className="highlight"> YATRI</span> ?
       </h2>
           <div className="feature">
             <FiFlag className="feature-icon"/>

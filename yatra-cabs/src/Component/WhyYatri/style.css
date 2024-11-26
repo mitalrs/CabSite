@@ -1,11 +1,11 @@
 .why-yatri {
     padding: 0px 20px;
     color: #333;
-    height: 540px;
+    height: fit-content;
   }
   
   .section-title {
-    font-size: 60px;
+    font-size: 5vw;
     font-weight: 800;
     margin-bottom: 20px;
     margin: 0;
@@ -48,22 +48,42 @@
   }
   
   .feature-icon {
-    font-size: 60px;
+    font-size: 5vw;
     color: #585858;
     margin-top: 4px;
   }
   
   .feature-title {
-    font-size: 20px;
+    font-size: 2vw;
     font-weight: 600;
     color: #216900;
     margin: 5px;
   }
   
   .feature-description {
-    font-size: 16px;
+    font-size: 1.5vw;
     color: #585858;
     line-height: 1.5;
     font-weight: 400;
+  }
+  .mobile-view{
+    display: none;
+  }
+
+  @media (max-width: 750px) {
+    .why-yatri .content-container{
+      display: flex;
+      flex-direction: column;
+    }
+    .desktop-view{
+      display: none;
+    }
+    .mobile-view{
+      display: flex;
+      gap: 3%;
+    }
+    .content-container .section-title .highlight {
+      color: #216900 ;
+    }
   }
   
