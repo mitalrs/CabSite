@@ -3,9 +3,10 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    gap: clamp(10px, 3vw, 40px)
   }
   .why-choose-one-way-cab .title{
-    font-size: 64px;
+    font-size: 3vw;
     color: #216900;
     font-weight: 600;
     margin: 0 5px 0 5px;
@@ -15,6 +16,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    gap: 2%;
   }
   
   .features-container .features-box{
@@ -26,19 +28,24 @@
   }
   
   .features-container .features-box ul li{
-    font-size: 20px;
+    font-size: 1.5vw;
     font-weight: 400;
     padding-right: 5px;
     line-height: 2;
   }
   
   .features-container .image-container .image {
-    max-width: 400px;
+    width: 100%;
     border-radius: 16px;
+  }
+
+  .features-container .image-container{
+    height: fit-content;
+    max-width: 40%;
   }
  
   .subtext-container .subtext{
-    font-size: 36px;
+    font-size: 2.5vw;
     font-weight: 400;
     color: #71766F;
     text-align: center;
