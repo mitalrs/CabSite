@@ -1,5 +1,5 @@
 .wrapper-on-notfaigrid{
-    height: 255px;
+    height: fit-content;
     padding: 10px;
     display: flex;
     justify-content: space-between;
@@ -21,22 +21,21 @@
   }
   
   .card-icon {
-    font-size: 40px;
     color: #216900;
     margin-bottom: 10px;
-    width: 116px;
-    height: 73px;
+    width: 30%;
+    height: 15%;
   }
   
   .title {
-    font-size: 27px;
+    font-size: 2vw;
     font-weight: 600;
     color: #216900;
     margin-bottom: 10px;
   }
   
   .description {
-    font-size: 17px;
+    font-size: 1.5vw;
     line-height: 1.5;
     color: #555;
     font-weight: 400;

@@ -1,6 +1,6 @@
 import './App.css'
 import Landing from './Component/Landing/index'
-// import NotFairGrid from './Component/NotFairGrid'
+import NotFairGrid from './Component/NotFairGrid'
 // import LocalTaxiServices from './Component/LocalTaxiServices'
 // import WhyYatri from './Component/WhyYatri'
 // import FareTable from './Component/FareTable'
@@ -16,8 +16,8 @@ function App() {
     <div className='app'>
       <div className='wrapper-0n-app-component'> 
       <Landing/>
-      {/* <NotFairGrid/>
-      <LocalTaxiServices/>
+      <NotFairGrid/>
+      {/* <LocalTaxiServices/>
       <WhyYatri/>
       <FareTable/>
       <OneWayJourney/>
