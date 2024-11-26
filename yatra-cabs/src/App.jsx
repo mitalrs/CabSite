@@ -8,7 +8,7 @@ import OneWayJourney from './Component/OneWayJourney'
 import WhyCab from './Component/WhyCab'
 import RoadTrip from './Component/RoadTrip'
 import CarRental from './Component/CarRental'
-// import Footer from './Component/Footer'
+import Footer from './Component/Footer'
 
 function App() {
 
@@ -24,7 +24,7 @@ function App() {
       <WhyCab/>
       <RoadTrip/>
       <CarRental/>
-      {/* <Footer/> */}
+      <Footer/>
       </div>
     </div>
   )
