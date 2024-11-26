@@ -1,5 +1,6 @@
 .wrapper-on-bg-img{
    position: relative;
+   margin-bottom: 5vw;
 }
 .bg-image-on-landing{
     background-image: url(../../assets/landingpagebg.jpeg);
