@@ -6,8 +6,8 @@ import WhyYatri from './Component/WhyYatri'
 import FareTable from './Component/FareTable'
 import OneWayJourney from './Component/OneWayJourney'
 import WhyCab from './Component/WhyCab'
-// import RoadTrip from './Component/RoadTrip'
-// import CarRental from './Component/CarRental'
+import RoadTrip from './Component/RoadTrip'
+import CarRental from './Component/CarRental'
 // import Footer from './Component/Footer'
 
 function App() {
@@ -22,9 +22,9 @@ function App() {
       <FareTable/>
       <OneWayJourney/>
       <WhyCab/>
-      {/* <RoadTrip/>
+      <RoadTrip/>
       <CarRental/>
-      <Footer/> */}
+      {/* <Footer/> */}
       </div>
     </div>
   )
