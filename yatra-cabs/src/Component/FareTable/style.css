@@ -33,4 +33,16 @@
   tbody tr:nth-child(even) td {
     background-color: #D5F2C8;
   }
+
+  @media screen and (max-width: 480px) {
+    .fare-table{
+      padding: 0;
+    }
+    thead th {
+      padding: 5px;
+    }
+    tbody td {
+      padding: 5px;
+    }
+  }
   

@@ -19,7 +19,7 @@
 }
 .tag-lines{
     width: 65%;
-    font-size: clamp(18px, 1.5vw, 40px);
+    font-size: clamp(12px, 1.5vw, 40px);
     color: white;
     line-height: 1.3;
     height: 100%;
