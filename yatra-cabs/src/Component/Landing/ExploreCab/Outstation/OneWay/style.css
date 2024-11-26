@@ -1,36 +1,41 @@
 .oneway{
     width: 90%;
-    height: 70%;
-    margin-top: 4%;
+    height: 100%;
+    margin: 4% 0;
 }
 .oneway .btn{
-    height: 40px;
     border-radius: 8px;
     border-color: #216900;
     background-color: #216900;
     color: white;
-    font-weight: 700px;
-    font-size: 20px;
-    padding: 2px 50px 2px 50px;
+    font-weight: 700;
+    font-size: clamp(17px,1.53vw,100px);
+    padding: .58vw 3.3vw;
 }
 .container-of-field{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    /* width: 100%; */
-    height: 80%;
-}
-.left-container{
-    height: 100%;
-    display: flex;
     flex-direction: column;
     justify-content: space-around;
+    align-items: center;
+    height: 80%;
 }
-.right-container{
-    height: 100%;
+.top-container{
+    width: 100%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.bottom-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
     justify-content: space-around; 
+}
+.icon-wrapper{
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 input{
     outline: none;
@@ -54,7 +59,7 @@ input{
 }
 
 .p-for-field{
-    font-size: 15px;
+    font-size: 1rem;
     color: #585858;
 }
 .icon{
